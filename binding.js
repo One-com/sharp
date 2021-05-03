@@ -10,7 +10,8 @@ var tar = require('tar');
 
 var tmp = require('os').tmpdir();
 
-var distBaseUrl = 'https://dl.bintray.com/lovell/sharp/';
+// var distBaseUrl = 'https://dl.bintray.com/lovell/sharp/';
+var distBaseUrl = 'https://raw.githubusercontent.com/One-com/sharp/v0.15/bin/';
 
 // Use NPM-provided environment variable where available, falling back to require-based method for Electron
 var minimumLibvipsVersion = process.env.npm_package_config_libvips || require('./package.json').config.libvips;
